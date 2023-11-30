@@ -6,7 +6,7 @@ interface QrCodeProps {}
 
 const QrCode: FC<QrCodeProps> = ({}) => {
   return (
-    <div className="h-fit w-8/12 bg-white mb-44 p-4 rounded-lg flex flex-col items-center">
+    <div className="h-fit w-8/12 bg-white desktop:w-4/12 mb-44 p-4 rounded-lg flex flex-col items-center">
       <Image className="w-11/12 h-11/12 mb-5 rounded-md" src={qr} alt="code" />
       <p className="font-bold text-center mb-5 px-16">
         Improve your front-end skills by building projects.
